@@ -1,8 +1,8 @@
 OPENSQM_ICON ICON "opensqmicon.ico"
 
 1 VERSIONINFO
-FILEVERSION     0,0,1,0
-PRODUCTVERSION  0,0,1,0
+FILEVERSION     0,0,2,0
+PRODUCTVERSION  0,0,2,0
 BEGIN
   BLOCK "StringFileInfo"
   BEGIN
@@ -10,12 +10,12 @@ BEGIN
     BEGIN
       VALUE "CompanyName", "PotcFdk"
       VALUE "FileDescription", "Open Square and Multiply"
-      VALUE "FileVersion", "0.0.1"
+      VALUE "FileVersion", "0.0.2"
       VALUE "InternalName", "openSQM"
       VALUE "LegalCopyright", "PotcFdk"
       VALUE "OriginalFilename", "openSQM.exe"
       VALUE "ProductName", "openSQM"
-      VALUE "ProductVersion", "0.0.1"
+      VALUE "ProductVersion", "0.0.2"
     END
   END
 

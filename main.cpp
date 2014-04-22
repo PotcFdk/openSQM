@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 **/
 
-#define VERSION "v0.0.1"
+#define VERSION "v0.0.2"
 #define BUILD "2014/04/22"
 
 #include <iostream>
