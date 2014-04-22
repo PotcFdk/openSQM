@@ -40,6 +40,9 @@
 		<Unit filename="SQM/SQM.hpp">
 			<Option virtualFolder="SQM/" />
 		</Unit>
+		<Unit filename="fileinfo.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
