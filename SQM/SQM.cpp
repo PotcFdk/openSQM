@@ -19,12 +19,11 @@ limitations under the License.
 uint64_t SQM::pow (uint64_t b, uint64_t e, uint64_t mod)
 {
     uint64_t result = 1;
-
-    unsigned significant = 0;
+    unsigned significant = 1;
     {
-        uint64_t b_t = b;
+        uint64_t e_t = e;
 
-        while (b_t >>= 1)
+        while (e_t >>= 1)
         {
             ++significant;
         }
@@ -32,7 +31,7 @@ uint64_t SQM::pow (uint64_t b, uint64_t e, uint64_t mod)
 
     for (int pos = significant-1; pos >= 0; --pos)
     {
-        bool bit = e & (0x1ull << pos);
+        bool bit = e & (1 << pos);
         result = (result * result) % mod;
 
         if (bit)
