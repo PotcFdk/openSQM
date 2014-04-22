@@ -23,7 +23,7 @@ limitations under the License.
 int main ()
 {
     std::cout << "openSQM.  " << VERSION << "  Build: " << BUILD << "  (c) PotcFdk, 2014" << std::endl
-         << "======" << std::endl << std::endl;
+         << "========" << std::endl << std::endl;
 
     uint64_t b, e, mod;
 
@@ -38,7 +38,7 @@ int main ()
 
         std::cout << std::endl
              << " " << b << " ^ " << e << " = "
-                << SQM::pow (b, e, mod) << " mod " << mod << std::endl;
+                << SQM::pow (b, e, mod) << " mod " << mod << std::endl << std::endl;
     }
 
     return 0;
